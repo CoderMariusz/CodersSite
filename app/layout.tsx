@@ -1,4 +1,4 @@
-import { AnalyticsWrapper } from "../components/Analytics";
+import { AnalyticsWrapper } from "./Analytics";
 import "../styles/globals.css";
 import Header from "../components/Header";
 

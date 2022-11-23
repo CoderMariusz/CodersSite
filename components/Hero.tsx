@@ -13,7 +13,12 @@ function Hero() {
         Most companies aren’t tapping into the abundance of global talent. We’re
         about to change that.
       </p>
-      <Image src="/bg-pattern-home-2.svg" width={350} height={100} />
+      <Image
+        src="/bg-pattern-home-2.svg"
+        width={350}
+        height={100}
+        alt="pattern"
+      />
     </section>
   );
 }
