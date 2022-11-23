@@ -25,9 +25,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/GoogleAnalytics.js",
+    "app/components/GoogleAnalytics.js",
     "app/page.js",
-    "app/Button.js"
+    "app/Button.js",
+    "components/BurgerMenu.js"
   ],
   "exclude": ["node_modules"]
 }
