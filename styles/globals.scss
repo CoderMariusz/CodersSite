@@ -1,13 +1,4 @@
-$MidnightGreen: rgb(1, 78, 86);
-$LightCoral: rgb(246, 126, 126);
-$White: rgb(255, 255, 255);
-
-$RaptureBlue: rgb(121, 200, 199);
-$PoliceBlue: rgb(44, 98, 105);
-$DeepJungleGreen: rgb(0, 64, 71);
-$SacramentoStateGreen: rgb(1, 47, 52);
-$DarkGreen: rgb(0, 37, 41);
-
+@import "variables.scss";
 html,
 body {
   padding: 0;
@@ -23,6 +14,8 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,8 +23,8 @@ a {
     color-scheme: dark;
   }
   body {
-    padding: 0 10px;
+    overflow-x: hidden;
     color: white;
-    background: black;
+    background: $MidnightGreen;
   }
 }

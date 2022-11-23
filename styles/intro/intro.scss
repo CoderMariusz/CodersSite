@@ -1,0 +1,22 @@
+@import "../variables.scss";
+
+.intro {
+  position: relative;
+  background-color: $DarkGreen;
+  min-height: 400px;
+  padding: 30px 10px 0;
+  img {
+    top: 0;
+    right: -75px;
+    position: absolute;
+  }
+}
+.line {
+  margin-bottom: 40px;
+  width: 55px;
+  height: 3px;
+  background: $LightOrange;
+}
+.title {
+  width: 60%;
+}

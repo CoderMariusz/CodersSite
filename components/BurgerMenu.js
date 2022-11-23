@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 const StyledMenu = styled.nav`
@@ -41,7 +42,7 @@ const StyledMenu = styled.nav`
 
 const StyledBurger = styled.button`
   position: absolute;
-  top: 0.5rem;
+  top: 1.2rem;
   right: 2rem;
   display: flex;
   flex-direction: column;
@@ -85,24 +86,11 @@ const StyledBurger = styled.button`
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href="/">
-        <span role="img" aria-label="about us">
-          💁🏻‍♂️
-        </span>
-        About us
-      </a>
-      <a href="/">
-        <span role="img" aria-label="price">
-          💸
-        </span>
-        Pricing
-      </a>
-      <a href="/">
-        <span role="img" aria-label="contact">
-          📩
-        </span>
-        Contact
-      </a>
+<Link href={'/'}>Home</Link>
+<Link href={'/'}>Project</Link>
+<Link href={'/'}>People</Link>
+<Link href={'/'}>Articles</Link>
+<Link href={'/'}>Contact</Link>
     </StyledMenu>
   );
 };

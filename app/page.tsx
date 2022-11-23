@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from "../components/Hero";
+import Intro from "../components/Intro";
 
 export default function homePage() {
   return (
-    <div>
-      <h1>Hello!</h1>
-    </div>
+    <main>
+      <Hero />
+      <Intro />
+    </main>
   );
 }
