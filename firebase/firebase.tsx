@@ -27,9 +27,9 @@ provider.setCustomParameters({
   allow_signup: "false",
 });
 
-function colUsers(col) {
+function colUsers(col: any) {
   const colRef = collection(db, col);
-  let users = [];
+  let users: any;
   getDocs(colRef)
     .then((e) => {
       e.docs.map((doc) => {
@@ -45,7 +45,7 @@ function loginGit() {
     .then((result) => {
       // This gives you a GitHub Access Token. You can use it to access the GitHub API.
       const credential = GithubAuthProvider.credentialFromResult(result);
-      const token = credential.accessToken;
+      const token = credential?.accessToken;
 
       // The signed-in user info.
       const user = result.user;
@@ -61,7 +61,7 @@ function logOutUser() {
     .catch((err) => console.log(err.message));
 }
 
-function logInEmailAndPass(email, password) {
+function logInEmailAndPass(email: string, password: string) {
   console.log("dziala");
   return signInWithEmailAndPassword(auth, email, password)
     .then((user) => {
