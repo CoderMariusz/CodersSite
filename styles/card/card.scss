@@ -1,0 +1,19 @@
+@import "../variables.scss";
+.wrapper {
+  margin-top: 40px;
+  background-color: $DarkGreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    color: $LightOrange;
+  }
+  p {
+    width: 95%;
+    text-align: center;
+  }
+}

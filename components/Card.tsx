@@ -1,11 +1,12 @@
 import Image from "next/image";
-import React from "react";
+import React, { HtmlHTMLAttributes } from "react";
+import "../styles/card/card.css";
 
-interface props {
-  pic: "string";
-  title: "string";
-  text: "string";
-}
+type props = {
+  pic: String;
+  title: String;
+  text: String;
+};
 
 function Card(props: props) {
   const { pic, title, text } = props;

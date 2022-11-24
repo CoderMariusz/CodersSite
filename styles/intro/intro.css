@@ -4,7 +4,7 @@
   min-height: 400px;
   padding: 30px 10px 0;
 }
-.intro img {
+.intro-top-img {
   top: 0;
   right: -75px;
   position: absolute;
@@ -18,5 +18,10 @@
 }
 
 .title {
+  font-size: 2rem;
   width: 60%;
+}
+
+.cards {
+  margin-top: 60px;
 }/*# sourceMappingURL=intro.css.map */

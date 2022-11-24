@@ -5,7 +5,7 @@
   background-color: $DarkGreen;
   min-height: 400px;
   padding: 30px 10px 0;
-  img {
+  &-top-img {
     top: 0;
     right: -75px;
     position: absolute;
@@ -18,5 +18,9 @@
   background: $LightOrange;
 }
 .title {
+  font-size: 2rem;
   width: 60%;
+}
+.cards {
+  margin-top: 60px;
 }
