@@ -3,7 +3,7 @@ import React, { HtmlHTMLAttributes } from "react";
 import "../styles/card/card.css";
 
 type props = {
-  pic: String;
+  pic: String | any;
   title: String;
   text: String;
 };
